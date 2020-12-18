@@ -8,11 +8,10 @@ spec:
   checkout:
     branch: main
     gitRepositoryRef:
-      name: nextjs
+      name: flux-system
   commit:
     authorEmail: norwood.sean@gmail.com
     authorName: flux
   interval: 1m0s
   update:
     setters: {}
-
