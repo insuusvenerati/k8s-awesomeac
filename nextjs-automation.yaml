@@ -1,0 +1,18 @@
+---
+apiVersion: image.toolkit.fluxcd.io/v1alpha1
+kind: ImageUpdateAutomation
+metadata:
+  name: nextjs
+  namespace: flux-system
+spec:
+  checkout:
+    branch: main
+    gitRepositoryRef:
+      name: nextjs
+  commit:
+    authorEmail: norwood.sean@gmail.com
+    authorName: flux
+  interval: 1m0s
+  update:
+    setters: {}
+
