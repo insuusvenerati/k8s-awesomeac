@@ -13,7 +13,7 @@ spec:
     spec:
       containers:
         - name: nextjs
-          image: docker.io/stiforr/awesome-ac:1.0.3-test-2 # {"$imagepolicy": "flux-system:nextjs"}
+          image: docker.io/stiforr/awesome-ac:1.0.3-test-2
           resources:
             limits:
               memory: "128Mi"
