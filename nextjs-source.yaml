@@ -8,4 +8,4 @@ spec:
   interval: 30s
   ref:
     branch: main
-  url: https://github.com/insuusvenerati/nextjs-k8s
+  url: https://github.com/insuusvenerati/k8s-awesomeac
