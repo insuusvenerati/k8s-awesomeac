@@ -8,4 +8,4 @@ spec:
     name: nextjs
   policy:
     semver:
-      range: "1.0.3-test.3"
+      range: "1.0.3-test.4"
