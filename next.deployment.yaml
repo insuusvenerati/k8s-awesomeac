@@ -4,7 +4,7 @@ metadata:
   name: nextjs
   annotations:
     fluxcd.io/automated: "true"
-    fluxcd.io/tag.app: "semver: >= 1.0.0-test, <2.0.1"
+    fluxcd.io/tag.app: "semver: >= 1.0.0-test.0, <2.0.1"
 spec:
   replicas: 1
   selector:
